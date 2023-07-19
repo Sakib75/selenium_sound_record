@@ -1,5 +1,9 @@
 # Play audio file and Capture using recorder in Selenium
 
+**Install FFMPEG**
+
+`sudo apt install ffmpeg`
+
 **Install PulseAudio**
 
 
