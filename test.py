@@ -16,7 +16,7 @@ subprocess.run(command, shell=True)
 # Set up Selenium webdriver (ensure you have the appropriate driver for your browser installed)
 
 chrome_options = Options()
-# chrome_options.add_argument("--headless") 
+chrome_options.add_argument("--headless") 
 chrome_options.add_argument("--use-fake-ui-for-media-stream")  # Grant permission automatically
 
 driver = webdriver.Chrome(options=chrome_options)
