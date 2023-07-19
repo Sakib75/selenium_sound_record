@@ -18,9 +18,6 @@
 
 `pactl load-module module-remap-source master="virtual_speaker.monitor" source_name="virtual_mic" source_properties=device.description="virtual_mic"`
 
-Download a sample file
-
-`wget -O input.wav https://file-examples.com/wp-content/storage/2017/11/file_example_WAV_1MG.wav`
 
 **Run Python Script**
 
